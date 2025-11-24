@@ -29,6 +29,11 @@ def read_key(dict,keyname):
     data = dict.get(keyname)
     pprint.pprint(data)
 
+#文件读取
+# for root,dirs,files in os.walk(path):
+#     for file in files:
+#         if file.endswith(('.jpg','.png'))
+
 
 if __name__ == '__main__':
     model = read_torch_file()
